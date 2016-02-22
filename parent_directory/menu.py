@@ -45,7 +45,6 @@ Notebook Menu
         print("you note has been added")
     def modify_note(self):
         id = input('Enter a note id:')
-        print(type(id),id,int(id.strip()))
         memo = input('Enter a memo:')
         tags = input('Enter tags')
         if memo:
